@@ -1,0 +1,9 @@
+C:\AKumar\CP and Others\AlMufawadh\CP.TravelManager\CP.Infra.Filters\bin\Debug\CP.Infra.CrossCutting.Filters.dll
+C:\AKumar\CP and Others\AlMufawadh\CP.TravelManager\CP.Infra.Filters\bin\Debug\CP.Infra.CrossCutting.Filters.pdb
+C:\AKumar\CP and Others\AlMufawadh\CP.TravelManager\CP.Infra.Filters\obj\Debug\CP.Infra.CrossCutting.Filters.dll
+C:\AKumar\CP and Others\AlMufawadh\CP.TravelManager\CP.Infra.Filters\obj\Debug\CP.Infra.CrossCutting.Filters.pdb
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Infra.Filters\bin\Debug\CP.Infra.CrossCutting.Filters.dll
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Infra.Filters\bin\Debug\CP.Infra.CrossCutting.Filters.pdb
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Infra.Filters\obj\Debug\CP.Infra.Filters.csproj.CoreCompileInputs.cache
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Infra.Filters\obj\Debug\CP.Infra.CrossCutting.Filters.dll
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Infra.Filters\obj\Debug\CP.Infra.CrossCutting.Filters.pdb

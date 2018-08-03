@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB5C8DF4-39FD-4F39-ADB5-FF1E2E7A33D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CP.Domain</RootNamespace>
+    <AssemblyName>CP.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Course\Course.cs" />
+    <Compile Include="Entities\Course\CourseType.cs" />
+    <Compile Include="Entities\Student\Student.cs" />
+    <Compile Include="Entities\Student\StudentHistory.cs" />
+    <Compile Include="Entities\User\User.cs" />
+    <Compile Include="Factories\StudentFactory.cs" />
+    <Compile Include="Interfaces\Repositories\ICourseRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ICourseTypeRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IStudentRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Services\ICourseService.cs" />
+    <Compile Include="Interfaces\Services\ICourseTypeService.cs" />
+    <Compile Include="Interfaces\Services\IStudentService.cs" />
+    <Compile Include="Interfaces\Specification\ISpecification.cs" />
+    <Compile Include="Interfaces\Validation\IFiscal.cs" />
+    <Compile Include="Interfaces\Validation\IRegra.cs" />
+    <Compile Include="Interfaces\Validation\ISelfValidator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CourseService.cs" />
+    <Compile Include="Services\CourseTypeService.cs" />
+    <Compile Include="Services\StudentService.cs" />
+    <Compile Include="Specification\CourseSpecification\NameMustBeUniqueSpecification.cs" />
+    <Compile Include="Specification\CourseSpecification\NameValidSpecification.cs" />
+    <Compile Include="Specification\CourseSpecification\SameNameForSameSpecification.cs" />
+    <Compile Include="Specification\StudentSpecification\StudentMustBeGreaterDeficiencySpecification.cs" />
+    <Compile Include="Specification\StudentSpecification\CPFStudentMustBeValidatedSpecification.cs" />
+    <Compile Include="Specification\StudentSpecification\CPFShouldBeUniqueSpecification.cs" />
+    <Compile Include="Specification\StudentSpecification\EmailStudentMustBeSingleSpecification.cs" />
+    <Compile Include="Specification\StudentSpecification\EmailShouldBeValidatedSpecification.cs" />
+    <Compile Include="Specification\StudentSpecification\NameMustHaveBetween3And50CharactersSpecification.cs" />
+    <Compile Include="Specification\StudentSpecification\StudentPasswordMustBeBetween6And20CharactersSpecification.cs" />
+    <Compile Include="Validation\Base\FiscalBase.cs" />
+    <Compile Include="Validation\CourseValidation\CourseValidValidation.cs" />
+    <Compile Include="Validation\CourseValidation\CourseForRegistrationValidation.cs" />
+    <Compile Include="Validation\CourseValidation\CourseConsistentToUpdateValidation.cs" />
+    <Compile Include="Validation\CourseValidation\CourseConsistentValidation.cs" />
+    <Compile Include="Validation\DocumentValidation\CPFValidation.cs" />
+    <Compile Include="Validation\StudentValidation\StudentEligibleForRegistrationValidation.cs" />
+    <Compile Include="Validation\StudentValidation\StudentConsistentForRegistrationValidation.cs" />
+    <Compile Include="ValueObjects\StudentSituation.cs" />
+    <Compile Include="ValueObjects\UserType.cs" />
+    <Compile Include="ValueObjects\ValidationResult.cs" />
+    <Compile Include="Validation\Rule.cs" />
+    <Compile Include="Validation\UserValidation\EmailValidation.cs" />
+    <Compile Include="ValueObjects\ValidationError.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

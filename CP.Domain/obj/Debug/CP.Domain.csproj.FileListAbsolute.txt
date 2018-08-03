@@ -1,0 +1,11 @@
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Domain\bin\Debug\CP.Domain.dll
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Domain\bin\Debug\CP.Domain.pdb
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Domain\obj\Debug\CP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Domain\obj\Debug\CP.Domain.dll
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Domain\obj\Debug\CP.Domain.pdb
+C:\Users\z003vzmz\source\repos\SchoolTrace\CP.Domain\bin\Debug\CP.Domain.dll
+C:\Users\z003vzmz\source\repos\SchoolTrace\CP.Domain\bin\Debug\CP.Domain.pdb
+C:\Users\z003vzmz\source\repos\SchoolTrace\CP.Domain\obj\Debug\CP.Domain.csprojAssemblyReference.cache
+C:\Users\z003vzmz\source\repos\SchoolTrace\CP.Domain\obj\Debug\CP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\z003vzmz\source\repos\SchoolTrace\CP.Domain\obj\Debug\CP.Domain.dll
+C:\Users\z003vzmz\source\repos\SchoolTrace\CP.Domain\obj\Debug\CP.Domain.pdb

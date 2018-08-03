@@ -1,0 +1,5 @@
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Service\bin\Debug\CP.Service.dll
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Service\bin\Debug\CP.Service.pdb
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Service\obj\Debug\CP.Service.csproj.CoreCompileInputs.cache
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Service\obj\Debug\CP.Service.dll
+C:\Users\z003vzmz\Downloads\nTierArchitectureMVC-master\CP.Service\obj\Debug\CP.Service.pdb

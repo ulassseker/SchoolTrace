@@ -1,0 +1,50 @@
+﻿@model IEnumerable<CP.Application.ViewModels.Course.GridCourseViewModel>
+
+@{
+    ViewBag.Title = "Course";
+}
+
+<h2>Course</h2>
+
+<p>
+    @Html.ActionLink("New Course", "Register")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RegistrationDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Active)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegistrationDate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { cursoId = item.CourseId })
+            </td>
+        </tr>
+    }
+
+</table>
