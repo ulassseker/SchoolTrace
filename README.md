@@ -1,0 +1,2 @@
+# SchoolTrace
+School
